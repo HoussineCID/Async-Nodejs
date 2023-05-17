@@ -38,6 +38,6 @@ async.waterfall([
   }
   function myLastFunction(arg1, callback) {
     // arg1 now equals 'Task1 and Task2'
-    arg1 += ' completed';
+    arg1 = ' completed';
     callback(null, arg1);
   }
